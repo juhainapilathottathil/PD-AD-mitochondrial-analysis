@@ -1,0 +1,63 @@
+Mitochondrial genes tested: PD 996 | AD 1019 | both 986 
+Nominal p < 0.05 (within shared universe): PD 223 | AD 329 
+Best genome-wide adj.P.Val among mito genes: PD 0.129 | AD 0.0462 
+PD GO terms enriched: 0 | AD GO terms enriched: 20 
+
+Overlap of nominally significant genes: 66 observed vs 74.4 expected; hypergeometric p = 0.926 
+
+Spearman rho of PD vs AD fold-changes (mitochondrial genes, n = 986 ): 0.298 
+Random non-mitochondrial gene sets: mean 0.186 | max 0.273 | permutation p = 5e-04 
+
+Respiratory chain genes (GO:0022904 annotation) tested in both datasets: 82 
+
+PD direction:
+                    down  up
+respiratory chain     63  19
+other mitochondrial  511 393
+
+	Fisher's Exact Test for Count Data
+
+data:  dir_pd
+p-value = 0.0002722
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 1.476161 4.585658
+sample estimates:
+odds ratio 
+  2.547821 
+
+Median logFC: respiratory chain -0.144 | other mitochondrial -0.047 
+
+	Wilcoxon rank sum test with continuity
+	correction
+
+data:  pd_fc[resp] and pd_fc[rest]
+W = 28952, p-value = 0.00102
+alternative hypothesis: true location shift is not equal to 0
+
+
+AD direction:
+                    down  up
+respiratory chain     75   7
+other mitochondrial  650 254
+
+	Fisher's Exact Test for Count Data
+
+data:  dir_ad
+p-value = 3.877e-05
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+  1.897895 10.903151
+sample estimates:
+odds ratio 
+  4.182019 
+
+Median logFC: respiratory chain -0.295 | other mitochondrial -0.122 
+
+	Wilcoxon rank sum test with continuity
+	correction
+
+data:  ad_fc[resp] and ad_fc[rest]
+W = 22507, p-value = 3.742e-09
+alternative hypothesis: true location shift is not equal to 0
+
