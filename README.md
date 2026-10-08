@@ -132,7 +132,8 @@ PD-AD-mitochondrial-analysis/
     ├── PD_mitochondrial_DE_results.csv
     ├── session_info.txt
     └── summary_stats.txt
-    ## References
+    ...
+## References
 
 - Rath S, et al. MitoCarta3.0: an updated mitochondrial proteome now with sub-organelle localization and pathway annotations. *Nucleic Acids Research*, 2021.
 - Ritchie ME, et al. limma powers differential expression analyses for RNA-sequencing and microarray studies. *Nucleic Acids Research*, 2015.
