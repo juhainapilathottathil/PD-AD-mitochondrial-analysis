@@ -132,7 +132,7 @@ PD-AD-mitochondrial-analysis/
     ├── PD_mitochondrial_DE_results.csv
     ├── session_info.txt
     └── summary_stats.txt
-    ```
+```
 ## References
 
 - Rath S, et al. MitoCarta3.0: an updated mitochondrial proteome now with sub-organelle localization and pathway annotations. *Nucleic Acids Research*, 2021.
